@@ -1,6 +1,6 @@
-﻿namespace NSoneBilling
+﻿namespace Sone.Core
 {
-    public class AuthenticationModel
+    public class Authentication
     {
         public GrantType GrantType { get; set; }
         public string Username { get; set; }
