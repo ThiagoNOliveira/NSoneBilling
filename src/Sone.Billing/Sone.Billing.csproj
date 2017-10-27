@@ -40,8 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApiClient.cs" />
-    <Compile Include="Model\Authentication.cs" />
+    <Compile Include="BillingApiClient.cs" />
     <Compile Include="Model\Contract\CreateContractResponse.cs" />
     <Compile Include="Model\Types\Brand.cs" />
     <Compile Include="Model\Contract\CreateContractRequest.cs" />

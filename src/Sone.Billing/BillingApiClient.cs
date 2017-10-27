@@ -7,12 +7,12 @@ using Sone.Core.RestFull;
 
 namespace Sone.Billing
 {
-    public class ApiClient : IDisposable
+    public class BillingApiClient : IDisposable
     {
         private ApiClientConfig _configuration;
         private TokenResponseModel _token;
 
-        public ApiClient(ApiClientConfig configuration)
+        public BillingApiClient(ApiClientConfig configuration)
         {
             _configuration = configuration;
             OAuthSignIn();

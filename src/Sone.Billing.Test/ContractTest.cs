@@ -19,21 +19,21 @@ namespace Sone.Billing.Test
             _config = ApiClientConfig.Builder
                 .SetEnvironment(Environment.Sandbox)
                 .SetOauthGrantType(GrantType.Password)
-                .SetOauthApplicationId("1")
-                .SetOauthClientId("sone.api")
-                .SetAuthenticationUsername("s1@solutionsone.com.br")
-                .SetAuthenticationPassword("SoneDatafono2017@")
+                .SetOauthApplicationId("")
+                .SetOauthClientId("")
+                .SetAuthenticationUsername("")
+                .SetAuthenticationPassword("")
                 .Build();
         }
 
         [TestMethod]
         public void CreateTest()
         {
-            using (var client = new ApiClient(_config))
+            using (var client = new BillingApiClient(_config))
             {
                 var contract = new CreateContractRequest
                 {
-                    MerchantKey = new Guid("641d7e8d-6865-e711-a96b-e239fa066f1b"),
+                    MerchantKey = new Guid("MerchantKey"),
                     ContractMode = ContractMode.Recurrent,
                     PaymentMode = PaymentMode.Credit,
                     Frequency = Frequency.Monthly,

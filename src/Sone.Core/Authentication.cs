@@ -1,6 +1,4 @@
-﻿using Sone.Core;
-
-namespace Sone.Billing.Model
+﻿namespace Sone.Core
 {
     public class Authentication
     {
