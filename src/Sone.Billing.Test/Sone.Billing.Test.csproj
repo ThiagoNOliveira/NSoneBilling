@@ -7,8 +7,8 @@
     <ProjectGuid>{254F6067-7F89-45D9-BA99-F3E215501F8D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NSoneBilling.Test</RootNamespace>
-    <AssemblyName>NSoneBilling.Test</AssemblyName>
+    <RootNamespace>Sone.Billing.Test</RootNamespace>
+    <AssemblyName>Sone.Billing.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -48,16 +48,20 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ContractTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\NSoneBilling.csproj">
+    <ProjectReference Include="..\Sone.Billing\Sone.Billing.csproj">
       <Project>{7ca92281-ad44-4289-a173-0523368d174e}</Project>
-      <Name>NSoneBilling</Name>
+      <Name>Sone.Billing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sone.Core\Sone.Core.csproj">
+      <Project>{983F4D4C-FDA7-4B94-BB6D-DA5278F724FB}</Project>
+      <Name>Sone.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

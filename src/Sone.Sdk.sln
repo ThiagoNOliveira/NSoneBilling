@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSoneBilling", "NSoneBilling.csproj", "{7CA92281-AD44-4289-A173-0523368D174E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sone.Core", "Sone.Core\Sone.Core.csproj", "{983F4D4C-FDA7-4B94-BB6D-DA5278F724FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSoneBilling.Test", "Tests\NSoneBilling.Test\NSoneBilling.Test.csproj", "{254F6067-7F89-45D9-BA99-F3E215501F8D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sone.Billing", "Sone.Billing\Sone.Billing.csproj", "{7CA92281-AD44-4289-A173-0523368D174E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sone.Billing.Test", "Sone.Billing.Test\Sone.Billing.Test.csproj", "{254F6067-7F89-45D9-BA99-F3E215501F8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{983F4D4C-FDA7-4B94-BB6D-DA5278F724FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{983F4D4C-FDA7-4B94-BB6D-DA5278F724FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{983F4D4C-FDA7-4B94-BB6D-DA5278F724FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{983F4D4C-FDA7-4B94-BB6D-DA5278F724FB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7CA92281-AD44-4289-A173-0523368D174E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7CA92281-AD44-4289-A173-0523368D174E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CA92281-AD44-4289-A173-0523368D174E}.Release|Any CPU.ActiveCfg = Release|Any CPU
