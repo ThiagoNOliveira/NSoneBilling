@@ -16,8 +16,4 @@ Exemple of use:
                 var returned = connection.Hire(Guid.Empty, string.Empty, string.Empty, string.Empty)
                     .SetFinishDate(DateTime.Now)
                     .Execute();
-
-                connection.Cancel(new { });
-                connection.Update(new { });
-                connection.ChangePaymentMode(new { });
             }
