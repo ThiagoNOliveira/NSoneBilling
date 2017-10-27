@@ -1,6 +1,6 @@
 # NSoneBilling
 
-Exemple of use:
+Example of use:
 
             var cnnC = ConnectionConfiguration.Builder
                 .SetEnvironment(Environment.Sandbox)
