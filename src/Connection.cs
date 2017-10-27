@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 
 namespace NSoneBilling
 {
@@ -13,11 +14,6 @@ namespace NSoneBilling
 
         private void Authenticaticate()
         {
-        }
-
-        public dynamic Hire(object contractModel)
-        {
-            return null;
         }
 
         public dynamic Cancel(object contractModel)

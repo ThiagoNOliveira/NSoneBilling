@@ -43,10 +43,15 @@
     <Compile Include="AuthenticationModel.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="ConnectionConfiguration.cs" />
+    <Compile Include="ConnectionExtensions.cs" />
     <Compile Include="Environment.cs" />
     <Compile Include="GrantType.cs" />
+    <Compile Include="Hire.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

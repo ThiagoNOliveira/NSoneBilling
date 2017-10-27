@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace NSoneBilling.Test
 {
@@ -19,7 +20,10 @@ namespace NSoneBilling.Test
 
             using (var connection = new Connection(cnnC))
             {
-                connection.Hire(new { });
+                var returned = connection.Hire(Guid.Empty, string.Empty, string.Empty, string.Empty)
+                    .SetFinishDate(DateTime.Now)
+                    .Execute();
+
                 connection.Cancel(new { });
                 connection.Update(new { });
                 connection.ChangePaymentMode(new { });
