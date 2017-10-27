@@ -1,4 +1,4 @@
-﻿namespace NSoneBilling
+﻿namespace Sone.Core
 {
     public enum Environment
     {
